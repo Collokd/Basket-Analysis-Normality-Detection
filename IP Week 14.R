@@ -26,13 +26,13 @@ library(arulesViz)
 
 library(readr)
 
+# Implementation of the solution; 
+
+#Dimensionality Reduction using Principal Component Analysis
+
 # Loading dataset
 
 Sales_Data <- read_csv("C:/Users/color/Downloads/Supermarket_Dataset_1 - Sales Data.csv")
-
-# Implementation of the solution
-
-#Dimensionality Reduction using Principal Component Analysis
 
 # Data cleaning
 
@@ -60,7 +60,7 @@ Sales_Data = unique(Sales_Data)
 
 nrow(Sales_Data)
 
-#Dimensionality Reduction using Principal Component Analysis
+# 1. Dimensionality Reduction using Principal Component Analysis
 
 # Convert categorical data into numerical
 Sales_Data$Branch_Num<-as.integer(as.factor(Sales_Data$Branch))
@@ -79,7 +79,7 @@ names(Sales_Data)
 
 sapply(Sales_Data, class)
 
-#Subsetting numerical columns
+#Sub-setting numerical columns
 
 install.packages("dplyr")
 
@@ -114,7 +114,7 @@ summary(pca)
 
 plot(pca, type="l")
 
-# Feature Selection in Unsupervised Learning
+# 2. Feature Selection in Unsupervised Learning
 
 #Checking correlation
 Sales_corr <- cor(data_num)
@@ -130,7 +130,7 @@ new_df = data_num[-highcorr]
 
 names(new_df)
 
-# Association Analysis
+# 3. Association Analysis
 
 Sales_Data2 <- read_csv("C:/Users/color/Downloads/Supermarket_Sales_Dataset II.csv")
 
@@ -177,7 +177,7 @@ rules <- apriori(Sales_Data2, parameter = list(supp = 0.5, conf = 0.8,target = "
 
 #rules <- apriori (Groceries, parameter = list(supp = 0.001, conf = 0.5)) # Min Support as 0.001, confidence as 0.8.
 
-# Anomaly Detection
+# 4. Anomaly Detection
 
 # loading data
 
