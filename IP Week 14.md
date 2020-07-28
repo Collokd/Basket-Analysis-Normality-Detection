@@ -2,28 +2,28 @@
 title: "Unsupervised Learning"
 author : "Collins Kemboi"
 
-#WEEK 14 IP
+# WEEK 14 IP
 
-##Defining the Question
+## Defining the Question
 
 
-###a). Specifying the question
+### a). Specifying the question
 
 As Data analyst at Carrefour Kenya and I have been tasked to inform the marketing department on the most relevant marketing strategies that will result in the highest no. of sales (total price including tax). I will therefore use unsupervised techniques to unearth key insights the will result to data driven recommendations for the company.
 
 
-###b). Defining the metrics of success
+### b). Defining the metrics of success
 
 Uncover insights from the data provided to enable the marketing department make data driven decisions.
 
 
-###c) Understanding the Context
+### c) Understanding the Context
 
 You are a Data analyst at Carrefour Kenya and are currently undertaking a project that will inform the marketing department on the most relevant marketing strategies that will result in the highest no. of sales (total price including tax). Your project has been divided into four parts where you'll explore a recent marketing dataset by performing various unsupervised learning techniques and later providing recommendations based on your insights.
 
 
 
-###d). Recording the Experimental Design
+### d). Recording the Experimental Design
 
 
 1.   Data Cleaning and Preparation
@@ -39,7 +39,7 @@ You are a Data analyst at Carrefour Kenya and are currently undertaking a projec
 6.   Make conclusions & Challenge the solution
 
 
-###e) Data relevance/ Appropriateness of Data
+### e) Data relevance/ Appropriateness of Data
 
 Link to the dataset:http://bit.ly/CarreFourDataset
 
